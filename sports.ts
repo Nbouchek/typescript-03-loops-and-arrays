@@ -8,6 +8,9 @@ for (let index = 0; index < sportsOne.length; index++) {
 // simplified for loop
 console.log("Simplified for loop");
 console.log("******************");
-for (const iterator of sportsOne) {
+for (let iterator of sportsOne) {
+  if(iterator == "Cricket") {
+    console.log(iterator + " << My favorite!")
+  }
   console.log(iterator);
 }
