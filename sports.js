@@ -8,5 +8,10 @@ console.log("Simplified for loop");
 console.log("******************");
 for (var _i = 0, sportsOne_1 = sportsOne; _i < sportsOne_1.length; _i++) {
     var iterator = sportsOne_1[_i];
-    console.log(iterator);
+    if (iterator == "Cricket") {
+        console.log(iterator + " << My favorite!");
+    }
+    else {
+        console.log(iterator);
+    }
 }
